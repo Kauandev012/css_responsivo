@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main{
+    max-width: 1024%;
+    background-color: rgb(252, 242, 228);
+
+}
+.cabeca {
+    background-color: rgba(111, 44, 173, 0.918);
+    color:#fff;
+    padding: 12px 22px;
+}
+
+.container img{
+    height: 96px;
+    position: absolute;
+    margin-top: -56px;
+}
+
+.container h1{
+    padding-left: 150px;
+    margin-top: 20px;
+}
+
+.menu li{
+    padding: 3px;
+    display: flex;
+    justify-content: end;
+    list-style:none;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.InfoLoja img{
+    height: 460px;
+    padding-left: 50px;
+    margin-top: -30px;
+}
+
+.InfoLoja{
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+
+.InfoLoja header{
+    text-decoration:overline  #0949aa;
+    margin-bottom: 145px;
+    margin-left: 90px;
+    padding: 10px 0 ;
+    font-size: 22px;
+}
+
+.InfoLoja p{
+    margin-bottom: 10px;
+    margin-left: -114px;
+}
+
+.article{
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.article header{
+    background-color: #2f5ea5;
+    color: #fff;
+}
+
+.article img{
+    height: 140px;
+    padding: 10px 20px;
+}
+
+.produtos{
+    padding: 40px 50px;
+    text-decoration: overline #0949aa;
+}
+
+.article article{
+    padding: 50px 10px;
+    margin-top: 40px;
+}
+
+.article button{
+    border-radius: 2%;
+    background-color: #3c67a7;
+    color: #fff;
+}
+
+@media screen and (min-width: 641px) and (max-width:1023px){
+    .main{
+        max-width: 90%;
+    }
+
+    .InfoLoja header{
+        font-size: 20px;
+        margin-top: -150px;
+    }
+
+    .InfoLoja {
+        font-size: 18px;
+        color: black;
+        padding-top: 22px;
+    }
+
+    .InfoLoja{
+        display: block;
+    }
+
+    .InfoLoja header{
+        text-decoration:overline  #0949aa;
+        margin-top: 50px;
+    }
+    
+    .InfoLoja p{
+        margin-top: 50px;
+        font-size: 20px;
+        margin-top: -120px;
+    }
+
+    .infoloja img{
+        height: 130px;
+        
+    }
+    
+}
+
+@media screen and (max-width:640px) {
+    .main{
+        max-width: 90%;
+    }
+
+    .InfoLoja{
+        display: block;
+    }
+
+    .InfoLoja header{
+        font-size: 20px;
+    }
+
+    .InfoLoja p{
+        font-size: 18px;
+        margin: 36px 0;
+    }
+
+    .InfoLoja img{
+        max-height: 350px;
+    }
+
+    .article{
+        display: block;
+    }
+    
+    .article header{
+        background-color: #2f5ea5;
+        color: #fff;
+    }
+    
+    .article img{
+        height: 190px;
+        padding: 10px 10px;
+    }
+    
+    .produtos{
+        padding: 30px 30px;
+        margin-left: 150px;
+        text-decoration: overline #0949aa;
+    }
+    
+    .article article{
+        padding: 20px 0px;
+        margin-top: 20px;
+    }
+    
+    .article button{
+        border-radius: 2%;
+        background-color: #3c67a7;
+        color: #fff;
+    }
+    
+}
